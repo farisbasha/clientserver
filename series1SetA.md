@@ -268,6 +268,8 @@ When designing business information systems, it's crucial to consider distributi
 
 **Three-Layer Architecture:**
 Business information systems typically adopt a Three-Layer Architecture to support distributed business processes across departments or enterprises. This architecture comprises a user interface, an application kernel, and a database access layer. Client/Server style is commonly used for distributed system architecture, where clients and servers communicate via request/response protocol.
+
+
 <img width="422" alt="Screenshot 2024-03-13 at 9 45 40 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/0ea5f8cf-eac7-45d9-a2d2-7fed372ffb28">
 
 **General Forces:**
