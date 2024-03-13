@@ -96,6 +96,38 @@ Single System Image (SSI) in client/server:
 
 ## **6.Discuss the advantages and disadvantages of Client/Server architecture.**
 
+**Advantages:**
+
+1. **Scalability:** Easy to grow by adding more clients or servers when needed.
+
+2. **Centralized Data Management:** Keeps all data in one place, making it easier to find and manage.
+
+3. **Enhanced Security:** Offers better control over who can access data, making it more secure.
+
+4. **Improved Performance:** Shares the workload among servers, making the system faster.
+
+5. **Flexibility:** Works with different types of devices and operating systems.
+
+6. **Resource Sharing:** Allows sharing things like printers and files, making collaboration easier.
+
+7. **Fault Isolation:** If something goes wrong on one part of the system, it doesn't necessarily affect everything else.
+
+**Disadvantages:**
+
+1. **Network Dependency:** Relies on a stable network connection, which can cause problems if the network goes down.
+
+2. **Single Point of Failure:** If the main server fails, the whole system can stop working.
+
+3. **Complexity:** Harder to set up and maintain compared to simpler systems, needing more specialized knowledge.
+
+4. **Cost:** Can be expensive to set up and keep running, especially for big systems.
+
+5. **Overhead:** Needs extra resources to communicate between clients and servers, which can slow things down.
+
+6. **Security Risks:** Storing all data in one place can make it a tempting target for hackers.
+
+7. **Vendor Lock-in:** Being tied to specific technology can limit options for the future.
+
 ## **7.Explain Client/Server computing with necessary diagrams. Explain various types of servers.**
 
 **Client/Server Computing:**
@@ -281,3 +313,38 @@ Several forces influence distribution decisions:
 - **Distribution vs. consistency:** Managing distributed data sources can pose consistency challenges.
 - **Software distribution cost:** Distributing system layers increases configuration and installation costs.
 - **Reusability vs. performance vs. complexity:** Placing functionality on servers enhances code reuse but may increase data transfer complexity.
+
+
+# **12.Explain various Client/Server topologies**
+
+ #### **Single Client, Single Server:**
+  1. Basic setup: One client, one server.
+  2. Simplest topology.
+  3. Limited scalability.
+  4. Low resource sharing.
+  5. Suitable for small-scale use.
+  
+  <img width="610" alt="Screenshot 2024-03-13 at 9 57 19 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/8ad86efe-bca4-47f6-bd74-3843e2d4e5c7">
+
+
+ #### **Multiple Clients, Single Server:**
+  1. Several clients, one server.
+  2. Common in medium-sized setups.
+  3. Centralized management.
+  4. Efficient resource utilization.
+  5. Moderate scalability.
+  6. Cost-effective for small to mid-sized organizations.
+ 
+  <img width="680" alt="Screenshot 2024-03-13 at 9 57 44 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/a07d77eb-1785-45a8-808e-90f831b13a6b">
+
+
+ #### **Multiple Clients, Multiple Servers:**
+  1. Many clients, multiple servers.
+  2. Each server serves unique functions.
+  3. Scalable for large-scale enterprises.
+  4. Distributed services and resources.
+  5. Complex network infrastructure.
+  6. Enhanced redundancy.
+  7. Improved fault tolerance.
+ 
+  <img width="406" alt="Screenshot 2024-03-13 at 9 58 02 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/f224068d-9f8e-48f2-99bf-0234ecff0c08">
