@@ -51,7 +51,8 @@ Protection methods for physical security holes:
 
 ## **4.Explain about three-tier computing.**
 
-<img width="423" alt="Screenshot 2024-03-13 at 10 40 25 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/6e92a310-b9fb-4636-a284-b6121c720310">
+<img width="482" alt="Screenshot 2024-03-13 at 10 46 34 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/890d816a-3480-4634-ae3f-71ad3703afad">
+
 
 Three-tier computing involves dividing an application into three separate logical layers:
   
