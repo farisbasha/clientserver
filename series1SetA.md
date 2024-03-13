@@ -261,12 +261,11 @@ These rules make sure that Client/Server systems are strong, flexible, and can w
 
 Client/Server systems play a crucial role in adopting open system standards due to their adaptability and flexibility. Here's why:
 
--. **Standardization**: 
-   - Client/Server systems align with the trend towards open systems and the adoption of industry standards.
-   - They support the use of both de facto and de jure standards:
-     - *De facto standards* are widely accepted protocols or interfaces that are made public, such as TCP/IP for networking and VGA for display connections.
-     - *De jure standards* are protocols or interfaces specified by formal standards-making bodies, like ISO's OSI model and ANSI C programming language standard.
-
+- **Standardization**: 
+   - Client/Server systems adopt open system standards.
+   - They use both de facto (widely accepted) and de jure (formal) standards.
+   - Examples include TCP/IP (de facto) and OSI (de jure).
+     
 - **Interoperability:** Standards ensure different systems can work together effectively.
 - **Lock-in Prevention:** Open standards prevent reliance on specific suppliers' proprietary technologies.
 - **Cost Reduction:** Adoption of open standards lowers integration costs and allows compatibility with existing investments.
