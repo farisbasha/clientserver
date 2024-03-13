@@ -65,17 +65,23 @@ Three-tier computing involves dividing an application into three separate logica
 
 ## **5.Define Fat Clients and Fat servers**
 
+
+
 - **Fat Clients:**
-  - Conducts minimal processing on the client side.
-  - Places more application functionality on client machines.
-  - Often used in traditional Client/Server models.
-  - Can pose maintenance challenges for Client/Server systems.
+  - **Definition:** Fat clients are client devices that conduct maximum processing on the client side, often hosting a significant portion of the application's logic and functionality.
+  - **Characteristics:**
+    - Conducts maximum processing on the client side.
+    - Places more application functionality on client machines.
+    - Often used in traditional Client/Server models.
+    - Can pose maintenance challenges for Client/Server systems.
 
 - **Fat Servers:**
-  - Conducts more processing on the server side.
-  - Provides higher-level services.
-  - Current trend favors fat servers in Client/Server Systems.
-  - Easier to manage as only server software needs updates.
+  - **Definition:** Fat servers are server machines that conduct more processing on the server side, typically providing higher-level services and abstracted functionalities.
+  - **Characteristics:**
+    - Conducts more processing on the server side.
+    - Provides higher-level services.
+    - Current trend favors fat servers in Client/Server Systems.
+    - Easier to manage as only server software needs updates.
 
 
 # **Part B**
