@@ -96,6 +96,8 @@ Single System Image (SSI) in client/server:
 
 ## **6.Discuss the advantages and disadvantages of Client/Server architecture.**
 
+## **7.Explain Client/Server computing with necessary diagrams. Explain various types of servers.**
+
 **Client/Server Computing:**
 
 - **Definition**: Client/Server computing is a technology that divides functions between two types of processes: the client, which requests services, and the server, which provides those services. They can be on the same or different computers connected via a network.
@@ -149,7 +151,7 @@ Single System Image (SSI) in client/server:
 
 
 
-## **7. Define Client/Server System development methodology and explain various phases and their activities involved in the System Integration Life Cycle**
+## **8. Define Client/Server System development methodology and explain various phases and their activities involved in the System Integration Life Cycle**
 
 **Client/Server System Development Methodology:**
 
@@ -193,7 +195,7 @@ Client/Server system development is distinct from traditional information system
 Client/Server system development requires careful planning, resource allocation, and ongoing evaluation to ensure successful implementation and operation.
 
 
-# **8. Discuss the principles behind the Client/Server system**
+# **9. Discuss the principles behind the Client/Server system**
 **Principles Behind Client/Server Systems:**
 
 Client/Server systems follow important rules to make sure they work well. These rules are like the foundation of a building, making sure everything fits together correctly:
@@ -221,3 +223,59 @@ Client/Server systems follow important rules to make sure they work well. These 
 These rules make sure that Client/Server systems are strong, flexible, and can work well with other systems, making them very useful in today's world of computers.
 
 
+# **10. Discuss the relevance of Clients/Server system in adopting open system standards**
+
+**Relevance of Client/Server Systems in Adopting Open System Standards:**
+
+Client/Server systems play a crucial role in adopting open system standards due to their adaptability and flexibility. Here's why:
+
+1. **Standardization**: 
+   - Client/Server systems align with the trend towards open systems and the adoption of industry standards.
+   - They support the use of both de facto and de jure standards:
+     - *De facto standards* are widely accepted protocols or interfaces that are made public, such as TCP/IP for networking and VGA for display connections.
+     - *De jure standards* are protocols or interfaces specified by formal standards-making bodies, like ISO's OSI model and ANSI C programming language standard.
+
+2. **Flexibility and Interoperability**:
+   - Client/Server architectures are designed to support interoperability between diverse hardware and software platforms.
+   - By adhering to open standards, Client/Server systems can easily communicate and integrate with other systems, regardless of their underlying technologies.
+  
+3. **Scalability and Growth**:
+   - Open system standards allow Client/Server systems to scale and grow efficiently.
+   - As new technologies emerge and standards evolve, Client/Server architectures can adapt and incorporate these changes seamlessly.
+
+4. **Cost-Effectiveness**:
+   - Adopting open standards reduces vendor lock-in and dependency on proprietary technologies.
+   - It promotes competition and innovation, driving down costs for implementing and maintaining Client/Server systems.
+
+5. **Community Collaboration**:
+   - Open system standards encourage collaboration and knowledge sharing within the technology community.
+   - Client/Server systems benefit from collective expertise and contributions, leading to better solutions and faster development cycles.
+
+6. **Security and Reliability**:
+   - Open standards often undergo rigorous testing and scrutiny, leading to more secure and reliable systems.
+   - By leveraging established standards, Client/Server systems can implement robust security measures and ensure data integrity.
+
+
+
+
+
+# **11.Explain the architecture of Business Information System**
+
+**Architecture for Business Information Systems**
+
+**Introduction:**
+When designing business information systems, it's crucial to consider distribution patterns within a layered architecture. Each pattern involves different client and server components, addressing the question: How do I distribute a business information system? However, the consequences vary, introducing new complexities compared to centralized systems.
+
+**Three-Layer Architecture:**
+Business information systems typically adopt a Three-Layer Architecture to support distributed business processes across departments or enterprises. This architecture comprises a user interface, an application kernel, and a database access layer. Client/Server style is commonly used for distributed system architecture, where clients and servers communicate via request/response protocol.
+<img width="422" alt="Screenshot 2024-03-13 at 9 45 40 PM" src="https://github.com/farisbasha/clientserver/assets/72191505/0ea5f8cf-eac7-45d9-a2d2-7fed372ffb28">
+
+**General Forces:**
+Several forces influence distribution decisions:
+- **Business needs vs. construction complexity:** Balancing functionality allocation with system complexity is challenging.
+- **Processing style:** Different processing styles require different distribution strategies.
+- **Distribution vs. performance:** Distribution improves parallel processing but increases communication overhead.
+- **Distribution vs. security:** Distributed environments require robust security measures due to increased attack points.
+- **Distribution vs. consistency:** Managing distributed data sources can pose consistency challenges.
+- **Software distribution cost:** Distributing system layers increases configuration and installation costs.
+- **Reusability vs. performance vs. complexity:** Placing functionality on servers enhances code reuse but may increase data transfer complexity.
